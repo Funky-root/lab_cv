@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-
 import Header from "./components/Header";
 import Profile from "./components/Profile";
 import Skills from "./components/Skills";
@@ -7,7 +6,7 @@ import Languages from "./components/Languages";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Footer from "./components/Footer";
-import Reviews from "./components/reviews";
+import Reviews from "./components/Reviews";
 import ContactForm from "./components/ContactForm";
 
 function App() {
