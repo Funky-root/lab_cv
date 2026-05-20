@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
-import Header from "./components/Header";
-import Profile from "./components/Profile";
-import Skills from "./components/Skills";
-import Languages from "./components/Languages";
-import Experience from "./components/Experience";
-import Education from "./components/Education";
-import Footer from "./components/Footer";
-import Reviews from "./components/Reviews";
-import ContactForm from "./components/ContactForm";
+import Header from "./components/header.jsx";
+import Profile from "./components/profile.jsx";
+import Skills from "./components/skills.jsx";
+import Languages from "./components/languages.jsx";
+import Experience from "./components/experience.jsx";
+import Education from "./components/education.jsx";
+import Footer from "./components/footer.jsx";
+import Reviews from "./components/reviews.jsx";
+import ContactForm from "./components/ContactForm.jsx";
 
 function App() {
 
