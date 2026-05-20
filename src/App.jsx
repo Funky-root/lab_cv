@@ -38,16 +38,16 @@ function App() {
     <div
       className={
         theme === "dark"
-          ? "bg-slate-900 text-white min-h-screen py-10"
-          : "bg-slate-200 text-black min-h-screen py-10"
+         ? "bg-gradient-to-br from-green-950 via-slate-900 to-black text-white min-h-screen py-10"
+         : "bg-gradient-to-br from-green-100 via-white to-green-200 text-black min-h-screen py-10"
       }
     >
 
       <div
         className={
           theme === "dark"
-            ? "max-w-5xl mx-auto bg-slate-800 shadow-xl"
-            : "max-w-5xl mx-auto bg-white shadow-xl"
+           ? "max-w-5xl mx-auto bg-slate-800/90 backdrop-blur-md shadow-2xl rounded-3xl overflow-hidden border border-green-700"
+           : "max-w-5xl mx-auto bg-white/90 backdrop-blur-md shadow-2xl rounded-3xl overflow-hidden border border-green-300"
         }
       >
 
@@ -82,8 +82,8 @@ function App() {
           <div
             className={
               theme === "dark"
-                ? "w-1/3 bg-slate-700 p-6 space-y-6"
-                : "w-1/3 bg-slate-100 p-6 space-y-6"
+             ? "w-1/3 bg-green-900/40 p-6 space-y-6 border-l border-green-700"
+             : "w-1/3 bg-green-50 p-6 space-y-6 border-l border-green-200"
             }
           >
 
